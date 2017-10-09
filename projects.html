@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<head>
+  <title>Adam Seevers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="mcss.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body class="center-block" style="width: 70%">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <a class="navbar-brand" href="#">Adam Seevers Portfolio</a>
+		</div>
+		<ul class="nav navbar-nav navbar-right">
+		  <li><a href="index.html">Home</a></li>
+		  <li class="active"><a href="projects.html">Projects</a></li>
+		  <li><a href="resume.html">Resume</a></li>
+		</ul>
+	  </div>
+	</nav>
+	<div class="center-block" id="projects">
+		<h2>Projects: <h2>
+		<ul>
+			<li><h5>Currently working on an Android App that aggregates Cryptocurrency data for users to easily interpret.<h5>
+			<p><img src="marketicon.jpg" alt="" class="img-thumbnail">
+			<a href="https://github.com/alexkiss2097/Cryptocurrency">CryptoMarket App</p></li>
+			<li>
+			<h5>Currently working on an Android App that aggregates Cryptocurrency data for users to easily interpret.<h5>
+			<p><img src="marketicon.jpg" alt="" class="img-thumbnail">
+			<a href="https://github.com/alexkiss2097/Cryptocurrency">CryptoMarket App</p>
+			</li>
+		</ul>
+	</div>
+	
+	<div>
+		<script src="https://www.reddit.com/r/cscareerquestions+cscareer/.embed?limit=10&t=all" type="text/javascript"></script>
+	</div>
+	
+	<!--
+	<div class="container" align="center">
+	  <H1>Meme Creator</H1>
+	  <div class="container">
+		<input type="file" id="file" />  
+	  </div>
+	  <div id="image-container" class="jumbotron">
+		<canvas width="500" height="500"></canvas>
+		<div>
+		  <span>Top Line:</span><br/>
+		  <input id="topLineText" type="text"><br/>
+		  <span>Bottom Line:</span><br/>
+		  <input id="bottomLineText" type="text"><br/>
+		  <button id="saveBtn">Save</button>
+		  <button id="clearBtn">Clear</button>
+	  </div>
+	</div>
+
+	<script>
+		function textChangeListener(evt) {
+		  var id = evt.target.id;
+		  var text = evt.target.value;
+		  if (id == "topLineText") {
+			window.topLineText = text;
+		  } else {
+			window.bottomLineText = text;
+		  }
+		  redrawMeme(window.imageSrc, window.topLineText, window.bottomLineText);
+		}
+		function redrawMeme(image, topLine, bottomLine) {
+		  // Get Canvas2DContext
+		  var canvas = document.querySelector('canvas');
+		  var ctx = canvas.getContext("2d");
+		  // Your code here
+		if (image != null) {
+		ctx.drawImage(image, 0,0, canvas.width, canvas.height);
+		}
+		ctx.font ='36px Impact';
+		ctx.textAlign = 'center';
+		ctx.strokeStyle = 'black';
+		ctx.lineWidth = 3;
+		ctx.fillStyle = 'white';
+		if (topLine != null) {
+			ctx.fillText(topLine, canvas.width / 2, 40);
+			ctx.strokeText(topLine, canvas.width / 2, 40);
+		}
+		if (bottomLine != null) {
+		ctx.fillText(bottomLine, canvas.width / 2, canvas.height - 20);
+		ctx.strokeText(bottomLine, canvas.width / 2, canvas.height - 20);
+		}
+		}
+		function saveFile() {
+		  window.open(document.querySelector('canvas').toDataURL());
+		}
+		function clearCanvas() {
+		  ctx.clearRect(0,0, canvas.width, canvas.height);
+		}
+		function handleFileSelect(evt) {
+		  var canvasWidth = 500;
+		  var canvasHeight = 500;
+		  var file = evt.target.files[0];
+		  var reader = new FileReader();
+		  reader.onload = function(fileObject) {
+		  var data = fileObject.target.result;
+		  // Create an image object
+		  var image = new Image();
+		  image.onload = function() {
+			  window.imageSrc = this;
+			  redrawMeme(window.imageSrc, null, null);
+			}
+			// Set image data to background image.
+			image.src = data;
+			console.log(fileObject.target.result);
+		  };
+		  reader.readAsDataURL(file)
+		}
+		window.topLineText = "";
+		window.bottomLineText = "";
+		var input1 = document.getElementById('topLineText');
+		var input2 = document.getElementById('bottomLineText');
+		input1.oninput = textChangeListener;
+		input2.oninput = textChangeListener;
+		document.getElementById('file').addEventListener('change', handleFileSelect, false);
+		document.getElementById('saveBtn').addEventListener('click', saveFile, false);
+		dodument.getElementById('clearBtn').addEventListener('click', clearCanvas, false);
+	</script>
+	-->
+
+</body>
+</html>
