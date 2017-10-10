@@ -15,18 +15,23 @@ body {
 h1 {
 	font-family: 'Audiowide', cursive;
 	color: white;
-	text-shadow: 5px 5px #89041E;
+	text-shadow: 5px 5px #1F4772;
 	font-size: 8vw;
 }
 
 h4 {
 	color: white;
 	font-size: 2vw;
+}
 
+h5 {
+	font-size: 1vw;
+	padding-top: 1em;
 }
 h3, h2 {
-	color: #89041E;
-	text-shadow: 2px 2px silver;
+	font-family: 'Audiowide', cursive;
+	color: #1F4772;
+	text-shadow: 1px 1px white;
 }
 
 #header {
