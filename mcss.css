@@ -14,13 +14,13 @@ body {
 
 h1 {
 	font-family: 'Audiowide', cursive;
-	color: white;
-	text-shadow: 5px 5px #1F4772;
-	font-size: 8vw;
+	color: silver;
+	text-shadow: 2px 2px #1F4772;
+	font-size: 4vw;
 }
 
 h4 {
-	color: white;
+	color: #1F4772;
 	font-size: 2vw;
 }
 
@@ -31,7 +31,7 @@ h5 {
 h3, h2 {
 	font-family: 'Audiowide', cursive;
 	color: #1F4772;
-	text-shadow: 1px 1px white;
+	text-shadow: 1px 1px dark-blue;
 }
 
 #header {
@@ -39,7 +39,7 @@ h3, h2 {
 }
 
 #projects {
-	background-color: #B0B0B0;
+	background-color: silver;
 	border-radius: 15px 50px;
 	padding: 15px;
 	margin-top: 10%;
