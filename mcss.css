@@ -8,6 +8,10 @@ html {
   background-size: cover;
 }
 
+p {
+	color: white;
+}
+
 body {
 	background: transparent;
 }
@@ -39,7 +43,7 @@ h3, h2 {
 }
 
 #projects {
-	background-color: silver;
+	background-color: grey;
 	border-radius: 15px 50px;
 	padding: 15px;
 	margin-top: 10%;
